@@ -1,0 +1,109 @@
+/* Pixel Gobus font  */
+@font-face {
+    font-family: 'Pixel Gobus';
+    src: url(/Fonts/Pixel\ Gosub.otf) format("opentype");
+    font-style: normal;
+}
+
+/* Pixelmania font */
+@font-face {
+    font-family: 'Pixelmania';
+    src: url(/Fonts//Pixelmania.ttf) format('truetype');
+    font-style: normal;
+}
+
+/* Nikkyou sans font */
+@font-face {
+    font-family: 'Nikkyou Sans';
+    src: url(/Fonts/NikkyouSans-mLKax.ttf) format('truetype');
+}
+
+
+
+body{
+    background-color: #0f380f;
+}
+
+.allBody{
+
+    display: flex;
+    min-height: 100vh;
+
+    background-color: #cadc9f;
+    background-size: cover;
+
+}
+
+
+.indexBackground{
+
+    display: flex;
+    min-height: 100vh;
+
+    align-items: center;
+    justify-content: center;
+    
+    background-image: linear-gradient(rgb(202, 220, 159, 1),rgb(202, 220, 159, 1)), url(/Data/clouds.png);
+    background-blend-mode: color;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    
+    /* background-attachment: fixed; */
+
+}
+
+
+.box{
+    width: 100vw;
+    padding: 10px;
+    background: rgb(48, 98, 48, 0.7);
+    align-items: center;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.indexText{
+    font-family: 'Pixel Gobus';
+    text-align: center;
+    color: #0f380f;
+    /* color: #306230; */
+}
+
+
+.mainBody{
+    display: flex;
+    min-height: 100vh;
+
+    background-color: #cadc9f;
+    background-size: cover;
+    
+    justify-content: center;
+    
+}
+
+.mainTitel{
+    font-family: 'Nikkyou Sans';
+    font-size: 100px;
+    color: #0f380f;
+    text-align: center;
+}
+
+.sidePageBody{
+    justify-content: left;
+    padding-top: 10px;
+    padding-left: 10px;
+
+}
+
+.bigTitel{
+    font-family: 'Pixelmania';
+    font-size: 50px;
+    color: #0f380f;
+
+    text-align: left;
+    
+}
